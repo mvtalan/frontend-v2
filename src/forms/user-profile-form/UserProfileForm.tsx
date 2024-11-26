@@ -15,7 +15,7 @@ import {
   import { Button } from "@/components/ui/button";
   // import { User } from "@/types";
   import { useEffect } from "react";
-import { User } from "@/type";
+import { User } from "@/types";
   
 const formSchema = z.object({
     email: z.string().optional(),
